@@ -22,4 +22,8 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
 
+  next(){
+    this.navCtrl.push("QuestionPage");
+  }
+
 }

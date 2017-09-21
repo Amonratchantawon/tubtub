@@ -22,4 +22,8 @@ export class QuestionPage {
     console.log('ionViewDidLoad QuestionPage');
   }
 
+  next(){
+    this.navCtrl.push("ShowtubPage");
+  }
+
 }

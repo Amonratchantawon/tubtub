@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  next(){
+    this.navCtrl.push("RegisterPage");
+  }
+
 }

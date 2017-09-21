@@ -22,4 +22,8 @@ export class ShowtubPage {
     console.log('ionViewDidLoad ShowtubPage');
   }
 
+  next(){
+    this.navCtrl.push("ShowdescriptiontubPage");
+  }
+
 }
